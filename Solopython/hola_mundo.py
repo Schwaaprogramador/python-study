@@ -112,3 +112,36 @@ def ejem():
 
 
 print(mi_func())
+
+
+"""
+TIPOS DE DATOS
+
+"""
+
+
+#BOOLEANS
+#OPERACIONES LOGICAS
+# and , or , not
+# En python los booleans son INT => 1 OR 0
+
+x = True
+y = False
+
+#Las dos tienen que ser True
+if x and y:
+    print('hola')
+    
+
+#Uno solo tiene que ser verdadero
+if x or y:
+    print('alguno es verdadero')
+    
+
+#Si es falso devuelve true
+if not x:
+    print('x es falso')
+    
+    
+    
+#NUMEROS - integer
