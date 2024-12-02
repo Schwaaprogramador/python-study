@@ -143,5 +143,38 @@ if not x:
     print('x es falso')
     
     
+# Se peude forzar el tipo de dato 
+
+y ="1"
+x = int(y)
+print(type(x))
     
-#NUMEROS - integer
+    
+# LISTA [] => Es mutable
+
+b = [ 1 , 2 , 3]
+a = reversed('hello')
+
+
+# TUPLA () => No es mutable.
+
+c = ( 1 , 2 , 3)
+
+# SET => Asegurar que un valor no esta repetido.=> Inmutable
+# => Las nuevos no se agregan en orden
+d = { 1 , "a", 2, 3 }
+d.add(4)
+
+for x in d:
+    print(x)
+    
+# Diccionario
+# key-value, 
+f = {
+    "a":1,
+    "b":2,
+    "c":3
+}
+
+print(f.get("a"))
+print(f["a"])
