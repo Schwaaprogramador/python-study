@@ -36,3 +36,13 @@ print(string[ 0:3 ]) # hol
 # El parametro paso, el tercer valor antes de cerrar el paso, como se va
 # saltar al siguiente 
 print(string[0:3:2]) # se salto el 2 , hl
+
+
+"""
+INPUT
+Recibir datos del usuario
+"""
+
+mensaje = intput("mensaje que le sale al usuario")
+#El valor del usuario se guardara en la variable
+print(mensaje)
